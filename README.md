@@ -1,12 +1,15 @@
 # nodejs-test-suite
 
 # Initialize a simple TS project
-npm init -y
+`npm init -y
 npx tsc --init
+`
 
 # Change rootDir and srcDir
+`
 "rootDir": "./src",
 "outDir": "./dist",
+`
 
 # Add dependencies
 `npm install --save-dev ts-jest  @jest/globals @types/express
