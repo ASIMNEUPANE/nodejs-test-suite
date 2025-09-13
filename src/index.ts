@@ -1,14 +1,5 @@
-import express from 'express'
+import {app} from './app'
 
-export const app = express()
-
-app.use(express.json())
-
-app.post("/sum",(req,res)=>{
-    const {a,b} = req.body
-    const ans = a+b
-    res.json({
-        answer:ans
-    })
+app.listen("3333",()=>{
+    console.log("http://localhost:3333")
 })
-
