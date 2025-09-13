@@ -26,3 +26,17 @@ module.exports = {
   testEnvironment: 'node',
   testMatch: ["<rootDir>/src/tests/**/*.ts"]
 };`
+
+
+Moving to vitest 
+
+Why vitest?
+- Faster
+- Better DX
+- Native ESM support
+- Built-in coverage
+- Snapshot testing
+- First class TS support
+- Great watch mode
+- Seamless integration with Vite
+
